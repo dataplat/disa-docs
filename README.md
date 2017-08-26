@@ -1,6 +1,7 @@
 # disa-docs
 Crowd-sourced Template for SQL Server Documentation as required by DISA
 
+## tips & tricks
 DISA requires a ton of documentation for their SQL Server STIGs. Even if you have resolved a vulnerability, if it is not documented well, it can be listed as an open finding.
 
 While it is safest to document a response to every single finding, the following are most important
