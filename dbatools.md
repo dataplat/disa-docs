@@ -4,8 +4,8 @@ For example
 
 ### V-41023
 
-* Get-DbaDiskSpace
+* <a href=https://dbatools.io/Get-DbaDiskSpace>Get-DbaDiskSpace</a>
 
 ### V-40928, V-15129
 
-* Test-DbaLastBackup
+* <a href=https://dbatools.io/Test-DbaLastBackup>Test-DbaLastBackup</a>
