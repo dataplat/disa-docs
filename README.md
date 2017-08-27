@@ -13,7 +13,11 @@ While it is safest to document a response to every single finding, the following
 
 ## make STIGs easier to navigate
 
-Fortunately, STIGs are XML so you can easily convert them into PowerShell Custom Objects. This is the code I wrote after I saved the 2005, 2012 and 2014 Database and Instance XML files to the `C:\stigs` directory on my local drive.
+Fortunately, STIGs are XML so you can easily convert them into PowerShell Custom Objects. Below is the code written after the 2005, 2012 and 2014 Database and Instance XML files were saved to the `C:\stigs` directory on a local drive.
+
+Ultimately, this enables you to import all SQL Server STIGs and pipe them to `Out-GridView` for easy filtering.
+
+![image](https://user-images.githubusercontent.com/8278033/29754045-181e75d4-8b7e-11e7-9106-9616bfb48813.png)
 
 ````
 $all = @()
