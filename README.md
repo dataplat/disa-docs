@@ -61,6 +61,10 @@ foreach ($file in (Get-ChildItem C:\stigs\*.xml)) {
 $all
 ````
 
+Ultimately, the resulting object looks like this:
+
+![image](https://user-images.githubusercontent.com/8278033/29754134-5b96f420-8b7f-11e7-9ddf-d103a95bc87f.png)
+
 From here, you can pipe `$all` to `Export-CliXml` or to a SQL Server Datatable using [dbatools](https://dbatools.io)' [Out-DbaDataTable](https://dbatools.io/Out-DbaDataTable).
 
-Or you can just import [the XML included in this repo](https://github.com/sqlcollaborative/disa-docs/blob/master/sqlstig.xml). 
+Or you can just import [the XML included in this repo](https://github.com/sqlcollaborative/disa-docs/blob/master/sqlstig.xml).
