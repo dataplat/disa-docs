@@ -7,6 +7,7 @@ DISA requires a ton of documentation for their SQL Server STIGs. Even if you hav
 While it is safest to document a response to every single finding, the following are most important
 
 * Any vulnerability that lists the words _document_, _procedure_, _process_ or _policy_, must be documented
+* Any vulnerability that says "configuration" should have a screenshot or other media attached
 * Any variation from the stated check must be documented. For instance, if a check states that you must limit database size, but you instead choose to ensure there's enough space by using an Agent Job that detects disk space capacity, this must be documented*.
 * Any use of third-party tools must be documented
 * Screenshots are key. In lieu of Screenshots, exported CSV files are useful. The path to these CSV files must be documented and the permissions must be limited.
