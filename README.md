@@ -24,7 +24,7 @@ Ultimately, this enables you to import all SQL Server STIGs and pipe them to `Ou
 $all = @()
 
 foreach ($file in (Get-ChildItem C:\stigs\*.xml)) {
-	$xml = Get-Content -Path $file.FullName
+	$xml = [xml](Get-Content -Path $file.FullName -Raw)
 	foreach ($group in $xml.Benchmark.Group) {
 		$rule = $group.Rule
 		if ($rule.Version.StartsWith("SQL4")) {
